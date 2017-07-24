@@ -30,11 +30,9 @@ img{
 }
 .wrapper{
     width: 1000px;
-    /*height:auto;*/
     margin:0 auto;
     display: flex;
     flex-flow: wrap;
-    /*flex-basis:60%;*/
     justify-content:center;
 
 }
@@ -69,7 +67,7 @@ header {
 #main-navigation {
     background: #444;
     display: flex;
-    flex-direction: row;
+    flex-wrap:wrap;
 }
 #main-navigation a{
     display: flex;
